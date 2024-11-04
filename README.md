@@ -32,7 +32,7 @@ Image quality comparison: psnr, ssim, vif, fsim
 |:---:|:---:|:---:|:---:|
 |PSNR|20.09831|23.90398|18.13228|
 |SSIM|0.45760|0.77630|0.40929|
-|VIF|0.21355|0.32840|0.30385|
+|VIFP|0.21355|0.32840|0.30385|
 </br>
 
 #### Image quality comparison of denoised image and target image </br>
@@ -40,5 +40,5 @@ Image quality comparison: psnr, ssim, vif, fsim
 |:---:|:---:|:---:|:---:|
 |PSNR|25.52061|27.02996|28.92660|
 |SSIM|0.55099|0.81606|0.52800|
-|VIF|0.35648|0.41545|0.50229|
+|VIFP|0.35648|0.41545|0.50229|
 
