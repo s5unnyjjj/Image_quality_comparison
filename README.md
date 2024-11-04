@@ -28,22 +28,16 @@ Image quality comparison: psnr, ssim, vif, fsim
 
 ## Results </br>
 #### Image quality comparison of input image and target image </br>
-|Metric|Dataset #1|
-|:---:|:---:|
-|PSNR|00|
-|SSIM|00|
-|VIF|00|
-
-* Image quality comparison of input image and target image</br>
- - PSNR: 00</br>
- - SSIM: 00</br>
- - VIF: 00</br>
-</br> 
-* Image quality comparison of denoised image and target image</br>
- - PSNR: 00</br>
- - SSIM: 00</br>
- - VIF: 00</br>
+||Dataset #1|Dataset #2|Dataset #3|
+|:---:|:---:|:---:|:---:|
+|PSNR|00|00|00|
+|SSIM|00|00|00|
+|VIF|00|00|00|
 </br>
-
-
+#### Image quality comparison of denoised image and target image </br>
+||Dataset #1|Dataset #2|Dataset #3|
+|:---:|:---:|:---:|:---:|
+|PSNR|00|00|00|
+|SSIM|00|00|00|
+|VIF|00|00|00|
 
