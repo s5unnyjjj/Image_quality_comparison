@@ -27,12 +27,12 @@ Image quality comparison: psnr, ssim, vif, fsim
 </br>
 
 ## Results </br>
-#### Dataset #1 </br>
-||Image quality comparison of input image and target image|
+#### Image quality comparison of input image and target image </br>
+||Dataset #1|
 |------|---|
-|PSNR|테스트2|
-|SSIM|테스트2|
-|VIF|테스트2|
+|PSNR|00|
+|SSIM|00|
+|VIF|00|
 
 * Image quality comparison of input image and target image</br>
  - PSNR: 00</br>
