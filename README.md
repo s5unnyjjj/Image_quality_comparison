@@ -27,7 +27,7 @@ Image quality comparison: psnr, ssim, vif, fsim
 </br>
 
 ## Results </br>
-#### Image quality comparison of input image and target image </br>
+#### Image quality comparison between input image and target image </br>
 ||Dataset #1|Dataset #2|Dataset #3|
 |:---:|:---:|:---:|:---:|
 |PSNR|20.09831|23.90398|18.13228|
@@ -35,7 +35,7 @@ Image quality comparison: psnr, ssim, vif, fsim
 |VIFP|0.21355|0.32840|0.30385|
 </br>
 
-#### Image quality comparison of denoised image and target image </br>
+#### Image quality comparison between denoised image and target image </br>
 ||Dataset #1|Dataset #2|Dataset #3|
 |:---:|:---:|:---:|:---:|
 |PSNR|25.52061|27.02996|28.92660|
