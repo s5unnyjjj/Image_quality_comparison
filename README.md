@@ -14,6 +14,7 @@ Image quality comparison: psnr, ssim, vif, fsim
 |Input|Denoised|Target|
 |:---:|:---:|:---:| 
 |<img src="https://github.com/s5unnyjjj/Image_quality_comparison/blob/master/data/input/88.png" width="300" height="150">|<img src="https://github.com/s5unnyjjj/Image_quality_comparison/blob/master/data/pred/88.png" width="300" height="150">|<img src="https://github.com/s5unnyjjj/Image_quality_comparison/blob/master/data/target/88.png" width="300" height="150">|
+
 #### Dataset #2 </br>
 |Input|Denoised|Target|
 |:---:|:---:|:---:| 
@@ -25,6 +26,13 @@ Image quality comparison: psnr, ssim, vif, fsim
 |<img src="https://github.com/s5unnyjjj/Image_quality_comparison/blob/master/data/input/535.png" width="300" height="150">|<img src="https://github.com/s5unnyjjj/Image_quality_comparison/blob/master/data/pred/535.png" width="300" height="150">|<img src="https://github.com/s5unnyjjj/Image_quality_comparison/blob/master/data/target/535.png" width="300" height="150">|
 </br>
 
+## Results </br>
+#### Dataset #1 </br>
+||Image quality comparison of input image and target image|
+|------|---|
+|PSNR|테스트2|
+|SSIM|테스트2|
+|VIF|테스트2|
 
 * Image quality comparison of input image and target image</br>
  - PSNR: 00</br>
