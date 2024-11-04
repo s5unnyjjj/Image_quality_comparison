@@ -9,6 +9,7 @@ Image quality comparison: psnr, ssim, vif, fsim
  * code/vif.py: Code toe calculate the VIF(Variance inflation factor)
 </br>
 
+* Dataset #1
 |Input|Denoised|Target|
 |:---:|:---:|:---:| 
 |<img src="https://github.com/s5unnyjjj/Image_quality_comparison/blob/master/data/input/88.png" width="300" height="150">|<img src="https://github.com/s5unnyjjj/Image_quality_comparison/blob/master/data/pred/88.png" width="300" height="150">|<img src="https://github.com/s5unnyjjj/Image_quality_comparison/blob/master/data/target/88.png" width="300" height="150">| 
