@@ -1,12 +1,12 @@
 # Image quality comparison </br>
 Image quality comparison: psnr, ssim, vif, fsim
-</br>
+</br></br>
 
 ## Project Structure </br>
- * code/main_calc.py: Code to train the u-net model for predicting the label image
- * code/psnr.py: Code to calculate the PSNR(Peak Signal-to-noise ratio)
- * code/ssim.py: Code to calculate the SSIM(Structural similarity index measureo)
- * code/vif.py: Code toe calculate the VIF(Variance inflation factor)
+ * code/main_calc.py: Code to calculate with the image quality metrics
+ * code/psnr.py: Code to calculate with the PSNR(Peak Signal-to-noise ratio)
+ * code/ssim.py: Code to calculate with the SSIM(Structural similarity index measureo)
+ * code/vifp.py: Code toe calculate with the VIF(Variance inflation factor)
 </br>
 
 ## Dataset </br>
@@ -27,18 +27,18 @@ Image quality comparison: psnr, ssim, vif, fsim
 </br>
 
 ## Results </br>
-#### Image quality comparison of input image and target image </br>
+#### Image quality comparison between input image and target image </br>
 ||Dataset #1|Dataset #2|Dataset #3|
 |:---:|:---:|:---:|:---:|
-|PSNR|00|00|00|
-|SSIM|00|00|00|
-|VIF|00|00|00|
+|PSNR|20.09831|23.90398|18.13228|
+|SSIM|0.45760|0.77630|0.40929|
+|VIFP|0.21355|0.32840|0.30385|
 </br>
 
-#### Image quality comparison of denoised image and target image </br>
+#### Image quality comparison between denoised image and target image </br>
 ||Dataset #1|Dataset #2|Dataset #3|
 |:---:|:---:|:---:|:---:|
-|PSNR|00|00|00|
-|SSIM|00|00|00|
-|VIF|00|00|00|
+|PSNR|25.52061|27.02996|28.92660|
+|SSIM|0.55099|0.81606|0.52800|
+|VIFP|0.35648|0.41545|0.50229|
 
