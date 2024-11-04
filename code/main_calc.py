@@ -36,9 +36,9 @@ for i in range(file_num):
     vifp_denoised_and_target = VIFP(denoised_img, target_img).cal_vifp()
 
     print('\n******* Dataset # %d *******' %(i+1))
-    print('### Image quality comparison of input image and target image')
+    print('### Image quality comparison between input image and target image')
     print(' - psnr: %.5f\n - ssim: %.5f\n - vif: %.5f\n' %(psnr_input_and_target, ssim_input_and_target, vifp_input_and_target))
 
-    print('### Image quality comparison of denoised image and target image')
+    print('### Image quality comparison between denoised image and target image')
     print(' - psnr: %.5f\n - ssim: %.5f\n - vif: %.5f' %(psnr_denoised_and_target, ssim_denoised_and_target, vifp_denoised_and_target))
     print('****************************************************************')
