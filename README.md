@@ -14,6 +14,7 @@ Image quality comparison: psnr, ssim, vif, fsim
 |Input|Denoised|Target|
 |:---:|:---:|:---:| 
 |<img src="https://github.com/s5unnyjjj/Image_quality_comparison/blob/master/data/input/88.png" width="300" height="150">|<img src="https://github.com/s5unnyjjj/Image_quality_comparison/blob/master/data/pred/88.png" width="300" height="150">|<img src="https://github.com/s5unnyjjj/Image_quality_comparison/blob/master/data/target/88.png" width="300" height="150">|
+|PSNR of input and target: 00, |
 </br>
 PSNR: 00
 
