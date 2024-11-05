@@ -6,6 +6,7 @@ import scipy.misc
 from psnr import PSNR
 from ssim import SSIM
 from vifp import VIFP
+from fsim import FSIM
 
 input_files = glob('../data/input/*.png')
 input_files = natsort.natsorted(input_files)
@@ -35,10 +36,14 @@ for i in range(file_num):
     vifp_input_and_target = VIFP(input_img, target_img).cal_vifp()
     vifp_denoised_and_target = VIFP(denoised_img, target_img).cal_vifp()
 
-    print('\n******* Dataset # %d *******' %(i+1))
+    fsim_input_and_target = FSIM(input_files[i], target_files[i]).cal_fsim()
+    fsim_denoised_and_target = FSIM(denoised_files[i], target_files[i]).cal_fsim()
+
+
+    print('\n************************ Dataset # %d ************************' %(i+1))
     print('### Image quality comparison between input image and target image')
-    print(' - psnr: %.5f\n - ssim: %.5f\n - vif: %.5f\n' %(psnr_input_and_target, ssim_input_and_target, vifp_input_and_target))
+    print(' - psnr: %.5f\n - ssim: %.5f\n - vif: %.5f\n - fsim: %.5f\n' %(psnr_input_and_target, ssim_input_and_target, vifp_input_and_target, fsim_input_and_target))
 
     print('### Image quality comparison between denoised image and target image')
-    print(' - psnr: %.5f\n - ssim: %.5f\n - vif: %.5f' %(psnr_denoised_and_target, ssim_denoised_and_target, vifp_denoised_and_target))
-    print('****************************************************************')
+    print(' - psnr: %.5f\n - ssim: %.5f\n - vif: %.5f\n - fsim: %.5f\n' %(psnr_denoised_and_target, ssim_denoised_and_target, vifp_denoised_and_target, fsim_denoised_and_target))
+
