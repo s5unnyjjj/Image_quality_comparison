@@ -1,7 +1,7 @@
 # Image quality comparison </br>
 Image quality comparison with image quality metrics(psnr, ssim, vif, fsim)
 </br>
-Denoised images were created using the image denoising model i trained myself.
+Denoised images were tested using the image denoising model i trained myself.
 </br></br>
 
 ## Project Structure </br>
