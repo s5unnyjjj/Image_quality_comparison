@@ -1,5 +1,6 @@
 # Image quality comparison </br>
-Image quality comparison: psnr, ssim, vif, fsim
+Image quality comparison with image quality metrics(psnr, ssim, vif, fsim)
+Denoised images were created using the image denoising model i trained myself.
 </br></br>
 
 ## Project Structure </br>
