@@ -46,3 +46,6 @@ Denoised images were tested using the image denoising model i trained myself.
 |SSIM|0.55099|0.81606|0.52800|
 |VIFP|0.35648|0.41545|0.50229|
 |FSIM|0.70328|0.75989|0.71466|
+
+# Reference  
+https://s5unnyjjj.tistory.com/30
